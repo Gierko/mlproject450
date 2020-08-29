@@ -1,0 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+from termcolor import colored
+from mlproject.distance import haversine
+print(colored(haversine(2.380009, 48.865070, 2.4595967, 48.8150576),'yellow'))
